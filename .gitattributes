@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files
+*.php text
+*.py text
+*.js text
+*.css text
+*.html text
+*.md text
+*.json text
+*.sql text
+*.ino text
+
+# Declare binary files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.wav binary
+*.pdf binary

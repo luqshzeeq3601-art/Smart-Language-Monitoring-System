@@ -18,6 +18,93 @@ An **IoT-based multilingual speech recognition system** for Malaysian schools th
 
 ---
 
+## 📸 Screenshots
+
+### 🔐 Login & Registration
+
+<p align="center">
+  <img src="screenshots/LOGIN%20ADMIN%26TEACHER%20%2CREGISTER%20TEACHER/login.jpg" width="45%" alt="Login Page"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/LOGIN%20ADMIN%26TEACHER%20%2CREGISTER%20TEACHER/register.jpg" width="45%" alt="Register Page"/>
+</p>
+
+### 👨‍💼 Admin Panel
+
+<p align="center">
+  <img src="screenshots/ADMIN/overview.jpg" width="70%" alt="Admin Overview Dashboard"/>
+</p>
+<p align="center"><em>Admin Overview Dashboard — Charts & Analytics</em></p>
+
+<p align="center">
+  <img src="screenshots/ADMIN/managelanguage.jpg" width="45%" alt="Manage Languages"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/ADMIN/monitordevices.jpg" width="45%" alt="Monitor Devices"/>
+</p>
+<p align="center"><em>Manage Languages &nbsp;&nbsp;|&nbsp;&nbsp; Monitor ESP32 Devices</em></p>
+
+<p align="center">
+  <img src="screenshots/ADMIN/adminmanageusers.jpg" width="45%" alt="Manage Users"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/ADMIN/approvelanguagerequest.jpg" width="45%" alt="Approve Language Request"/>
+</p>
+<p align="center"><em>Manage Users &nbsp;&nbsp;|&nbsp;&nbsp; Approve Language Requests</em></p>
+
+### 👩‍🏫 Teacher Panel
+
+<p align="center">
+  <img src="screenshots/TEACHER/DASHBOARD/overviewdashboard.jpg" width="45%" alt="Teacher Dashboard"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/TEACHER/DASHBOARD/setlanguage.jpg" width="45%" alt="Set Language"/>
+</p>
+<p align="center"><em>Teacher Dashboard &nbsp;&nbsp;|&nbsp;&nbsp; Set Target Language</em></p>
+
+<p align="center">
+  <img src="screenshots/TEACHER/DASHBOARD/languageusage.jpg" width="45%" alt="Language Usage"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/TEACHER/DASHBOARD/updateprofileteacher.jpg" width="45%" alt="Update Profile"/>
+</p>
+<p align="center"><em>Language Usage Analytics &nbsp;&nbsp;|&nbsp;&nbsp; Update Profile</em></p>
+
+### 🎓 Student Interaction (ESP32 + Python)
+
+<p align="center">
+  <img src="screenshots/STUDENT%20ORDER%20FOOD/programstart.jpg" width="30%" alt="Program Start"/>
+  &nbsp;
+  <img src="screenshots/STUDENT%20ORDER%20FOOD/listeningaudio.jpg" width="30%" alt="Listening"/>
+  &nbsp;
+  <img src="screenshots/STUDENT%20ORDER%20FOOD/englishcorrect.jpg" width="30%" alt="Correct Answer"/>
+</p>
+<p align="center"><em>Program Start → Listening for Audio → Correct Answer (English)</em></p>
+
+<p align="center">
+  <img src="screenshots/STUDENT%20ORDER%20FOOD/malaycorrect.jpg" width="22%" alt="Malay Correct"/>
+  &nbsp;
+  <img src="screenshots/STUDENT%20ORDER%20FOOD/chinesecorrect%20.jpg" width="22%" alt="Chinese Correct"/>
+  &nbsp;
+  <img src="screenshots/STUDENT%20ORDER%20FOOD/tamilcorrect.jpg" width="22%" alt="Tamil Correct"/>
+  &nbsp;
+  <img src="screenshots/STUDENT%20ORDER%20FOOD/englishwrong.jpg" width="22%" alt="Wrong Answer"/>
+</p>
+<p align="center"><em>Correct: Malay, Chinese, Tamil &nbsp;&nbsp;|&nbsp;&nbsp; Wrong Answer</em></p>
+
+### 🗄️ Database & Web Server
+
+<p align="center">
+  <img src="screenshots/DATABASE%20%26%20WEBSERVER/tablerelationsql.jpg" width="70%" alt="Database Relations"/>
+</p>
+<p align="center"><em>MySQL Database Table Relations</em></p>
+
+### 🔌 ESP32 Hardware
+
+<p align="center">
+  <img src="screenshots/ESP32/1.jpg" width="45%" alt="ESP32 Setup 1"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/ESP32/2.jpg" width="45%" alt="ESP32 Setup 2"/>
+</p>
+<p align="center"><em>ESP32 Hardware Setup with OLED Display & Speaker</em></p>
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -162,6 +249,13 @@ An **IoT-based multilingual speech recognition system** for Malaysian schools th
 
 ---
 
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
 ## 👥 Team
 
-**Group 30** — NMJ32004 Integrated Design Project, Semester 2, 2024/25
+**Group 30** — NMJ32004 Integrated Design Project, Semester 2, 2024/25  
+UniMAP — Universiti Malaysia Perlis
