@@ -1,0 +1,10 @@
+vendor/
+__pycache__/
+*.pyc
+*.rar
+*.m4a
+*.exe
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
