@@ -1,8 +1,74 @@
 # 🏫 Smart Language Monitoring System
 
-> **Course:** NMJ32004 Integrated Design Project · **Group:** 30 · **Semester:** 2, 2024/25
+<p align="center">
+  <strong>An IoT-powered multilingual speech recognition system that helps Malaysian students practice speaking in multiple languages — and gives teachers real-time data to track progress.</strong>
+</p>
 
-An **IoT-based multilingual speech recognition system** for Malaysian schools that monitors and encourages students to practice speaking in multiple languages. Students interact with an ESP32 device — their speech is recognized, the language is detected, and results are logged to a web dashboard for teachers and administrators.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-ESP32-blue?logo=espressif" alt="ESP32"/>
+  <img src="https://img.shields.io/badge/AI-OpenAI_Whisper-green?logo=openai" alt="Whisper"/>
+  <img src="https://img.shields.io/badge/Languages-EN%20|%20BM%20|%20ZH%20|%20TA-orange" alt="Languages"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License"/>
+</p>
+
+> **Course:** NMJ32004 Integrated Design Project · **Group:** 30 · **Semester:** 2, 2024/25  
+> **University:** UniMAP — Universiti Malaysia Perlis
+
+---
+
+## 🤔 The Problem
+
+Malaysia is a **multilingual nation** where students are expected to communicate in Bahasa Melayu, English, Mandarin, and Tamil. However:
+
+- **Teachers can't track** how often students actually speak in each language throughout the day
+- **There's no measurable data** on students' language practice habits — only subjective observation
+- **Students lack motivation** to practice speaking in languages outside their comfort zone
+- **Schools have no tools** to monitor or encourage multilingual competency beyond exam scores
+
+Traditional language education focuses on reading and writing. **Speaking practice is invisible** — it's never recorded, never measured, and never rewarded.
+
+---
+
+## 💡 Our Solution
+
+The **Smart Language Monitoring System** combines an affordable IoT device with AI-powered speech recognition to make language practice **visible, measurable, and actionable**.
+
+**How it works — in 30 seconds:**
+1. 🟢 Student presses a button on the ESP32 device
+2. 🎙️ The device listens and records their speech
+3. 🤖 AI (OpenAI Whisper) transcribes the speech and detects the language
+4. ✅ Instant audio feedback — correct or wrong language sound plays
+5. 📊 Results are logged and displayed on the teacher/admin dashboard
+
+> **Think of it as a "Fitbit for language practice"** — it tracks how much students speak in each language, the same way a fitness tracker counts your steps.
+
+---
+
+## 🌍 Benefits & Impact
+
+### 🎓 For Education
+| Benefit | Description |
+|---------|-------------|
+| **Data-driven teaching** | Teachers get real analytics on which languages students practice, how often, and when |
+| **Gamified motivation** | Instant correct/wrong audio feedback turns language practice into an engaging activity |
+| **Fair assessment** | Objective data replaces subjective observation for speaking competency |
+| **Weekly reports** | CSV export enables school-level tracking and parent communication |
+
+### 🏭 For Industry & Technology
+| Benefit | Description |
+|---------|-------------|
+| **Low-cost IoT solution** | ESP32-based hardware keeps per-unit cost under RM50, making it scalable for public schools |
+| **Edge + Cloud AI** | Demonstrates practical integration of Whisper AI with embedded systems |
+| **Open-source blueprint** | Provides a replicable template for EdTech IoT solutions in Southeast Asia |
+| **Workforce readiness** | Multilingual graduates are better prepared for Malaysia's diverse job market |
+
+### 🌏 For Society
+| Benefit | Description |
+|---------|-------------|
+| **Cultural preservation** | Encourages students to actively use minority languages (Tamil, Mandarin) — not just dominant ones |
+| **National unity** | Promotes cross-cultural communication by normalizing multilingual practice |
+| **Digital inclusion** | Brings AI-powered learning tools to rural and under-resourced schools at affordable cost |
+| **SDG 4 — Quality Education** | Directly supports UN Sustainable Development Goal 4: inclusive and equitable quality education |
 
 ---
 
@@ -242,10 +308,33 @@ An **IoT-based multilingual speech recognition system** for Malaysian schools th
 
 ---
 
+## 🗺️ Future Roadmap
+
+- [ ] 🔋 Battery-powered portable version for outdoor / field use
+- [ ] 📱 Mobile app companion for students (track their own progress)
+- [ ] 🧠 Pronunciation scoring using AI (not just language detection)
+- [ ] 🌐 Support for additional languages (Iban, Kadazan, Arabic)
+- [ ] ☁️ Cloud deployment for multi-school district monitoring
+- [ ] 🏆 Gamification — leaderboards and badges for students
+
+---
+
 ## 📄 Documents
 
 - [Competition Poster (PDF)](docs/NMJ32004%20POSTER%20COMP%20Sem2%20202425%20GROUP30.pdf)
 - [Final Report (PDF)](docs/NMJ32004%20S2202425%20FR%20COMP%20G30.pdf)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve the system or adapt it for your school:
+
+1. Fork this repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
 ---
 
@@ -259,3 +348,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Group 30** — NMJ32004 Integrated Design Project, Semester 2, 2024/25  
 UniMAP — Universiti Malaysia Perlis
+
+---
+
+<p align="center">
+  <em>Built with ❤️ to make language learning visible, measurable, and fun for Malaysian students.</em>
+</p>
