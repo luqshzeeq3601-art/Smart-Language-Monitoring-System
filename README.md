@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License"/>
 </p>
 
-> **Course:** NMJ32004 Integrated Design Project · **Group:** 30 · **Semester:** 2, 2024/25  
+> **Course:** NMJ32004 Integrated Design Project · **Group:** 30 · **Semester:** 2, 2024/25
 > **University:** UniMAP — Universiti Malaysia Perlis
 
 ---
@@ -41,6 +41,15 @@ The **Smart Language Monitoring System** combines an affordable IoT device with 
 5. 📊 Results are logged and displayed on the teacher/admin dashboard
 
 > **Think of it as a "Fitbit for language practice"** — it tracks how much students speak in each language, the same way a fitness tracker counts your steps.
+
+---
+
+## 📈 Outcomes
+
+- Prototyped an ESP32 speech-practice device under RM50 per unit that detects 4 languages (English, Bahasa Melayu, Mandarin, Tamil) with OpenAI Whisper transcription and Lingua language detection.
+- Closed the feedback loop in one button press: the device records speech, compares the detected language with the teacher's target, and plays a correct or wrong cue through an I2S speaker.
+- Logged every student attempt to MySQL and surfaced it in PHP teacher and admin dashboards with language-usage analytics, ESP32 device monitoring, and weekly CSV export.
+- Delivered as Group 30 for the NMJ32004 Integrated Design Project (Semester 2, 2024/25), documented with a competition poster and final report in [`docs/`](docs/).
 
 ---
 
@@ -346,7 +355,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👥 Team
 
-**Group 30** — NMJ32004 Integrated Design Project, Semester 2, 2024/25  
+**Group 30** — NMJ32004 Integrated Design Project, Semester 2, 2024/25
 UniMAP — Universiti Malaysia Perlis
 
 ---
